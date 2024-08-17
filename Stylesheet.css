@@ -35,6 +35,25 @@ body {
   align-items: center;
 }
 
+.stats {
+  display: flex;
+  flex-direction: row;
+}
+
+#a {
+  display: flex;
+  flex-direction: column;
+}
+
+#b {
+  display: flex;
+  flex-direction: column;
+}
+
+#c {
+  display: flex;
+  flex-direction: column;
+}
 /* Media queries for images */
 @media (min-width: 500px) {
   .imageMobile {
@@ -52,6 +71,10 @@ body {
   img {
     width: 100vw;
     height: auto;
+  }
+  .content {
+    text-align: center;
+    height: 100vh;
   }
 }
 
