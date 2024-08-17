@@ -38,6 +38,8 @@ body {
 .stats {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  padding: 5em;
 }
 
 #a {
