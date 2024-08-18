@@ -78,6 +78,7 @@ p#main {
   padding-top: 0px;
   font-size: .9rem;
 }
+
 /* Media queries for images */
 @media (min-width: 500px) {
   .imageMobile {
@@ -100,6 +101,9 @@ p#main {
   .content {
     text-align: center;
     height: 100vh;
+  }
+  .stats {
+    flex-direction: column;
   }
 }
 
