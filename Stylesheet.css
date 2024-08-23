@@ -74,9 +74,11 @@ span {
 }
 
 p#main {
-  padding: 3rem;
+  padding: 2.5rem;
   padding-top: 0px;
   font-size: .9rem;
+  color: var(--MainP);
+  line-height: 1.7;
 }
 
 /* Media queries for images */
