@@ -21,6 +21,8 @@ body {
   color: white; /* To be changed */
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .card {
@@ -62,6 +64,7 @@ body {
 #c {
   display: flex;
   flex-direction: column;
+  margin-bottom: 30px;
 }
 
 h1 {
@@ -81,6 +84,19 @@ p#main {
   line-height: 1.7;
 }
 
+.stats h2 {
+  margin-bottom: 4px;
+  text-transform: uppercase;
+}
+
+.stats p {
+  margin-bottom: 23px;
+  color: var(--Stats);
+  text-transform: uppercase;
+  font-size: .65rem;
+  letter-spacing: .75px;
+  font-weight: 500;
+}
 /* Media queries for images */
 @media (min-width: 500px) {
   .imageMobile {
@@ -94,6 +110,7 @@ p#main {
   }
   .card {
     flex-direction: column;
+    height: 100%;
   }
   img {
     width: 100%;
@@ -102,11 +119,38 @@ p#main {
   }
   .content {
     text-align: center;
-    height: 100vh;
   }
   .stats {
     flex-direction: column;
   }
+}
+
+#Footer P {
+  color: var(--White);
+  font-size: 14px;
+  font-weight: 700;
+  margin: 5px;
+}
+
+Footer {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+  text-align: center;
+  background-color: black;
+}
+
+Footer a {
+  color: #00ff00;
+  text-decoration: none;
+}
+
+Footer a:hover {
+  color: #ff9c6c;
+}
+
+#Footer {
+  margin: 0;
 }
 
 /* Lexend - stats
